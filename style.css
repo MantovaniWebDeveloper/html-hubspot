@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
 }
 h2{
   font-size: 45px;
@@ -11,6 +11,7 @@ h2{
 a {
   text-decoration: none;
 }
+
 .clear{
   clear: both;
 }
@@ -23,7 +24,7 @@ a {
 }
 /***********************/
 .contenitoreContenuti {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   color: #7c98b6;
 }
@@ -32,10 +33,16 @@ a {
   width: 100%;
   height: 70px;
   border-bottom: 1px solid #cbd6e2;
+  position: fixed;
 }
 #navHeader {
   width: 100%;
   height: 90px;
+  padding-top: 70px;
+}
+#navHeader nav div {
+  color: #000;
+  font-size: 16px;
 }
 #caltoactionHeader {
   background-color: #2D3E50;
@@ -61,10 +68,10 @@ a {
 
 }
 #colCenterTopHeader {
-  width: 50%;
+  width: 40%;
 }
 #colDxTopHeader{
-  width: 30%;
+  width: 40%;
 }
 #colSxNav{
   width: 20%;
@@ -100,17 +107,20 @@ a {
 }
 .btnNegativo {
   color: #ff704d;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #ff704d;
   border-radius: 5px;
   background-color: #fff;
+  font-size: 10px;
+
 }
 .btnOrange {
   color: #fff;
-  padding: 5px;
+  padding: 10px;
   background-color: #ff704d;
   border: 1px solid #ff704d;
   border-radius: 5px;
+  font-size: 10px;
 }
 .btnLearn {
   padding-top: 10px;
