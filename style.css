@@ -20,7 +20,7 @@ a {
 }
 /***********************/
 .contenitoreContenutiHeader {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   color: #7c98b6;
 }
@@ -34,8 +34,8 @@ a {
   width: 100%;
   height: 90px;
 }
-#calHeader {
-  background-color: orange;
+#caltoactionHeader {
+  background-color: #2D3E50;
   width: 100%;
   height: 90px;
 }
@@ -50,6 +50,7 @@ a {
 }
 #colSxTopHeader {
   width: 20%;
+
 }
 #colCenterTopHeader {
   width: 50%;
@@ -68,20 +69,23 @@ a {
   width: 80%;
   line-height: 100px;
 }
-.nero{
-  background-color: black;
-  width: 20%;
-  height: 100px;
+#colSxcaltoactionHeader{
+  width: 70%;
+  height: 90px;
+  position: relative;
 }
-.orange{
-  background-color: orange;
-  width: 50%;
-  height: 70px;
+#colDxcaltoactionHeader{
+  width: 30%;
+  height: 90px;
+  line-height: 90px;
+
 }
-.giallo {
-  background-color: yellow;
-  width: 80%;
-  height: 100px;
+#colSxcaltoactionHeader > h5{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-0%,-50%);
 }
 .btnNegativo {
   color: #ff704d;
@@ -97,10 +101,20 @@ a {
   border: 1px solid #ff704d;
   border-radius: 5px;
 }
+.btnLearn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F5F8FA;
+  color: #2D3E50;
+  border: 1px solid #F5F8FA;
+  border-radius: 5px;
+}
 .fa-search {
   color: #46bdcf;
 }
 .menuItem {
   margin-left: 20px;
-  margin-right: 20px;
+  /*margin-right: 20px;*/
 }
