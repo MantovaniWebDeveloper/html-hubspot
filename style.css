@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
 }
 /***CLASSI DI CONTROLLO ***/
 .mr1 {
@@ -44,12 +48,26 @@
   height: 70px;
 }
 .orange{
-  background-color: orange;
+  /*background-color: orange;*/
   width: 50%;
   height: 70px;
 }
-.giallo{
-  background-color: yellow;
+.giallo {
+  /*background-color: yellow;*/
   width: 30%;
   height: 70px;
+}
+.btnNegativo {
+  color: #ff704d;
+  padding: 5px;
+  border: 1px solid #ff704d;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.btnOrange {
+  color: #fff;
+  padding: 5px;
+  background-color: #ff704d;
+  border: 1px solid #ff704d;
+  border-radius: 5px;
 }
