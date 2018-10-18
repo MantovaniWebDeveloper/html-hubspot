@@ -5,6 +5,9 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
 }
+h2{
+  font-size: 45px;
+}
 a {
   text-decoration: none;
 }
@@ -19,7 +22,7 @@ a {
   margin-left: 10px;
 }
 /***********************/
-.contenitoreContenutiHeader {
+.contenitoreContenuti {
   width: 50%;
   margin: 0 auto;
   color: #7c98b6;
@@ -38,6 +41,11 @@ a {
   background-color: #2D3E50;
   width: 100%;
   height: 90px;
+}
+#caltoactionSection {
+  background-image:  -webkit-linear-gradient(45deg, rgba(37,143,186,1) 0%,rgba(40,184,204,1) 63%,rgba(150,234,234,1) 100%);
+  height: 600px;
+  border-bottom: 3px solid #000;
 }
 .interlinea {
   line-height: 70px;
@@ -87,6 +95,9 @@ a {
   left: 0%;
   transform: translate(-0%,-50%);
 }
+#colSxCalSection {
+  width: 50%;
+}
 .btnNegativo {
   color: #ff704d;
   padding: 5px;
@@ -111,10 +122,24 @@ a {
   border: 1px solid #F5F8FA;
   border-radius: 5px;
 }
+.btnGrande{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #F5F8FA;
+  color: #2D3E50;
+  border: 1px solid #F5F8FA;
+  border-radius: 5px;
+}
 .fa-search {
   color: #46bdcf;
 }
 .menuItem {
   margin-left: 20px;
   /*margin-right: 20px;*/
+}
+#colSxCalSection h2,p,.contenioreBtn{
+  padding-top: 50px;
+  color: #fff
 }
