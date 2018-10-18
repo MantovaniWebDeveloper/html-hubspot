@@ -8,13 +8,19 @@
 a {
   text-decoration: none;
 }
+.clear{
+  clear: both;
+}
 /***CLASSI DI CONTROLLO ***/
 .mr1 {
   margin-right: 10px;
 }
+.ml1 {
+  margin-left: 10px;
+}
 /***********************/
 .contenitoreContenutiHeader {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   color: #7c98b6;
 }
@@ -22,9 +28,9 @@ a {
   background-color: #F5F8FA;
   width: 100%;
   height: 70px;
+  border-bottom: 1px solid #cbd6e2;
 }
 #navHeader {
-  background-color: red;
   width: 100%;
   height: 90px;
 }
@@ -42,20 +48,40 @@ a {
 .fright{
   float: right;
 }
-.nero{
-  /*background-color: black;*/
+#colSxTopHeader {
   width: 20%;
-  height: 70px;
+}
+#colCenterTopHeader {
+  width: 50%;
+}
+#colDxTopHeader{
+  width: 30%;
+}
+#colSxNav{
+  width: 20%;
+  line-height: 100px;
+}
+#colSxNav img {
+  vertical-align: middle;
+}
+#colDxNav {
+  width: 80%;
+  line-height: 100px;
+}
+.nero{
+  background-color: black;
+  width: 20%;
+  height: 100px;
 }
 .orange{
-  /*background-color: orange;*/
+  background-color: orange;
   width: 50%;
   height: 70px;
 }
 .giallo {
-  /*background-color: yellow;*/
-  width: 30%;
-  height: 70px;
+  background-color: yellow;
+  width: 80%;
+  height: 100px;
 }
 .btnNegativo {
   color: #ff704d;
@@ -70,4 +96,11 @@ a {
   background-color: #ff704d;
   border: 1px solid #ff704d;
   border-radius: 5px;
+}
+.fa-search {
+  color: #46bdcf;
+}
+.menuItem {
+  margin-left: 20px;
+  margin-right: 20px;
 }
