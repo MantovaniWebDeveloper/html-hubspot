@@ -70,6 +70,9 @@ nav {
 .mt5 {
   margin-top: 50px;
 }
+.pt3 {
+  padding-top: 30px;
+}
 .pt5 {
   padding-top: 50px;
 }
@@ -106,7 +109,11 @@ nav {
 .testo-bianco {
   color: #fff;
 }
-.testo-arancio {
+.cardContenitore > #secondaColonna{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.testo-arancio{
   color: #ff704d;
 }
 .testo-grigino{
@@ -239,6 +246,9 @@ nav {
 }
 #imgLibro {
   width: 200px;
+}
+.imgCard {
+  width: 100px;
 }
 #hubspotSection {
   padding-top: 40px;
