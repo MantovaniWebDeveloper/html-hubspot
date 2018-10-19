@@ -18,34 +18,34 @@ a {
   clear: both;
 }
 /***CLASSI PER LE COLONNE ***/
-.col_1{
+.col_1 {
   width: 10%;
 }
-.col_2{
+.col_2 {
   width: 20%;
 }
-.col_3{
+.col_3 {
   width: 30%;
 }
-.col_4{
+.col_4 {
   width: 40%;
 }
-.col_5{
+.col_5 {
   width: 50%;
 }
-.col_6{
+.col_6 {
   width: 60%;
 }
-.col_7{
+.col_7 {
   width: 70%;
 }
-.col_8{
+.col_8 {
   width: 80%;
 }
-.col_9{
+.col_9 {
   width: 90%;
 }
-.col_10{
+.col_10 {
   width: 100%;
 }
 /***CLASSI DI CONTROLLO ***/
@@ -60,8 +60,8 @@ a {
 .nero{
   background-color: #000;
 }
-.orange {
-  background-color: #000;
+.arancio {
+  background-color: #ff704d;
 }
 .bluscuro {
  background-color:  #2D3E50;
@@ -72,6 +72,7 @@ a {
 .bianco {
   background-color: #fff;
 }
+/***********************/
 /***COLORE TESTO ***/
 .testo-nero {
   color: #33475b;
@@ -79,21 +80,42 @@ a {
 .testo-bianco {
   color: #fff;
 }
-.testo-arancio{
+.testo-arancio {
   color: #ff704d;
 }
 /***********************/
 /***BUTTON****/
-.button-piccolo{
-
+.button-piccolo {
+  padding: 10px;
+  border: 1px solid #ff704d;
+  border-radius: 5px;
+  font-size: 12px;
 }
 .button-medio {
-
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #F5F8FA;
+  border-radius: 5px;
+  font-size: 12px;
 }
 .button-grande {
-
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #F5F8FA;
+  border-radius: 5px;
 }
 /***********************/
+/****COLORI E SFONDI BUTTON***/
+.negativo {
+  color: #ff704d;
+  background-color: #fff;
+}
+/***********************/
+
 /***********************/
 .contenitoreContenuti {
   width: 60%;
@@ -156,45 +178,6 @@ a {
 }
 #colSxCalSection {
   width: 50%;
-}
-.btnNegativo {
-  color: #ff704d;
-  padding: 10px;
-  border: 1px solid #ff704d;
-  border-radius: 5px;
-  background-color: #fff;
-  font-size: 12px;
-
-}
-.btnOrange {
-  color: #fff;
-  padding: 10px;
-  background-color: #ff704d;
-  border: 1px solid #ff704d;
-  border-radius: 5px;
-  font-size: 12px;
-}
-.btnLearn {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #F5F8FA;
-  color: #2D3E50;
-  border: 1px solid #F5F8FA;
-  border-radius: 5px;
-  font-size: 12px;
-
-}
-.btnGrande{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #F5F8FA;
-  color: #2D3E50;
-  border: 1px solid #F5F8FA;
-  border-radius: 5px;
 }
 .fa-search {
   color: #46bdcf;
