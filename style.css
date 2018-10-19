@@ -64,6 +64,9 @@ nav {
 .mt1 {
   margin-top: 10px;
 }
+.mt3 {
+  margin-top: 30px;
+}
 .mt5 {
   margin-top: 50px;
 }
@@ -89,7 +92,7 @@ nav {
 .bluscuro {
  background-color:  #2D3E50;
 }
-.grigio{
+.grigino{
   background-color: #F5F8FA;
 }
 .bianco {
@@ -174,7 +177,6 @@ nav {
 .interlinea {
   line-height: 70px;
 }
-
 .fleft{
   float: left;
 }
