@@ -14,9 +14,39 @@ h3{
 a {
   text-decoration: none;
 }
-
-.clear{
+.clear {
   clear: both;
+}
+/***CLASSI PER LE COLONNE ***/
+.col_1{
+  width: 10%;
+}
+.col_2{
+  width: 20%;
+}
+.col_3{
+  width: 30%;
+}
+.col_4{
+  width: 40%;
+}
+.col_5{
+  width: 50%;
+}
+.col_6{
+  width: 60%;
+}
+.col_7{
+  width: 70%;
+}
+.col_8{
+  width: 80%;
+}
+.col_9{
+  width: 90%;
+}
+.col_10{
+  width: 100%;
 }
 /***CLASSI DI CONTROLLO ***/
 .mr1 {
@@ -53,6 +83,17 @@ a {
   color: #ff704d;
 }
 /***********************/
+/***BUTTON****/
+.button-piccolo{
+
+}
+.button-medio {
+
+}
+.button-grande {
+
+}
+/***********************/
 /***********************/
 .contenitoreContenuti {
   width: 60%;
@@ -86,46 +127,28 @@ a {
 .interlinea {
   line-height: 70px;
 }
+
 .fleft{
   float: left;
 }
 .fright{
   float: right;
 }
-#colSxTopHeader {
-  width: 20%;
-
-}
-#colCenterTopHeader {
-  width: 40%;
-}
-#colDxTopHeader{
-  width: 40%;
-}
 #colSxNav{
-  width: 20%;
   line-height: 100px;
 }
 #colSxNav img {
   vertical-align: middle;
 }
-#colDxNav {
-  width: 80%;
-  line-height: 100px;
-}
 #colSxcaltoactionHeader{
-  width: 70%;
   height: 90px;
   position: relative;
 }
 #colDxcaltoactionHeader{
-  width: 30%;
   height: 90px;
   line-height: 90px;
-
 }
 #colSxcaltoactionHeader > h5{
-  color: #fff;
   position: absolute;
   top: 50%;
   left: 0%;
