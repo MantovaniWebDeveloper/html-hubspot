@@ -11,6 +11,9 @@ h2{
 h3{
   font-size: 35px;
 }
+h4 {
+  font-size: 25px;
+}
 a {
   text-decoration: none;
 }
@@ -58,10 +61,23 @@ nav {
 .ml1 {
   margin-left: 10px;
 }
+.mt1 {
+  margin-top: 10px;
+}
+.mt5 {
+  margin-top: 50px;
+}
+.pt5 {
+  padding-top: 50px;
+}
 .bordi-arrotondati {
   border: 1px solid #F5F8FA;
   border-radius: 5px;
 }
+.testo-centrato {
+  text-align: center;
+}
+
 /***********************/
 /***SFONDO COLORI****/
 .nero{
@@ -73,7 +89,7 @@ nav {
 .bluscuro {
  background-color:  #2D3E50;
 }
-.grigino {
+.grigio{
   background-color: #F5F8FA;
 }
 .bianco {
@@ -89,6 +105,9 @@ nav {
 }
 .testo-arancio {
   color: #ff704d;
+}
+.testo-grigino{
+  color: grey;
 }
 /***********************/
 /***BUTTON****/
@@ -192,10 +211,6 @@ nav {
   margin-left: 20px;
   /*margin-right: 20px;*/
 }
-#colSxCalSection h2,p{
-  padding-top: 50px;
-  color: #fff
-}
 .contenioreBtn {
   margin-top: 50px;
 }
@@ -222,4 +237,16 @@ nav {
 }
 #imgLibro {
   width: 200px;
+}
+#hubspotSection {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#hubspot {
+  padding: 30px;
+}
+#hubspot::after {
+  content: "";
+  display: table;
+  clear: both;
 }
