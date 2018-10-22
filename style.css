@@ -144,10 +144,9 @@ nav {
   height: 150px;
 }
 .cardBox > p {
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: left;
 }
 .cardBox > h4 {
@@ -159,12 +158,18 @@ nav {
 .cardBox > ul {
   text-align: left;
   list-style-type: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .cardBox > a {
   display: inline-block;
   margin-bottom: 30px;
+}
+.linea {
+  border: 1px solid lightgrey;
+  margin-left: 15px;
+  margin-right: 15px;
+
 }
 .testo-arancio{
   color: #ff704d;
