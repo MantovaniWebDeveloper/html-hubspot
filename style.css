@@ -337,3 +337,21 @@ nav {
   padding-top: 30px;
   border-right: 1px solid #fff;
 }
+#sectionSponsor {
+  height: 500px;
+}
+.boxSponsorTesto p {
+  text-align: left;
+  line-height: 1.4;
+}
+.boxTabella {
+  padding-left: 60px;
+}
+.rigaSponsor > div {
+  float: left;
+  width: 25%;
+}
+.rigaSponsor2 > div {
+  float: left;
+  width: 25%;
+}
