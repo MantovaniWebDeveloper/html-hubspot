@@ -312,13 +312,33 @@ nav {
 }
 #learnSection {
   background-image:  linear-gradient(to right, #09A7BF,#00BDA5);
-  height: 600px;
+  height: 700px;
 }
 .cardRiga > img {
   height: 30px;
 }
-.cardRiga {
-  padding: 20px;
+.riga > div {
+  width: 25%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
+}
+.riga2 > div {
+  width: 25%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-right: 1px solid #fff;
+}
+.cardRigaUltimo{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #fff;
+
 }
