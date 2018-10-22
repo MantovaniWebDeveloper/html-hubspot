@@ -121,6 +121,9 @@ nav {
 .testo-bianco {
   color: #fff;
 }
+#card{
+  padding-bottom: 50px;
+}
 .cardContenitore > #secondaColonna{
   margin-left: 5%;
   margin-right: 5%;
@@ -133,6 +136,7 @@ nav {
   padding-left: 10px;
   padding-right: 10px;
   border-bottom: 1px solid grey;
+  text-align: left;
 }
 .cardBox > h4 {
   margin-bottom: 20px;
@@ -148,6 +152,7 @@ nav {
 }
 .cardBox > a {
   display: inline-block;
+  margin-bottom: 30px;
 }
 .testo-arancio{
   color: #ff704d;
