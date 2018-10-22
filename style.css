@@ -113,6 +113,13 @@ nav {
   margin-left: 5%;
   margin-right: 5%;
 }
+.cardBox > img {
+  height: 150px;
+}
+.cardBox > p {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
 .testo-arancio{
   color: #ff704d;
 }
@@ -233,6 +240,7 @@ nav {
 .contenitoreImg img {
   width: 300px;
 }
+
 #titoloOffers,#testoOffers{
   text-align: center;
   padding-top: 20px;
@@ -243,9 +251,6 @@ nav {
 }
 #imgLibro {
   width: 200px;
-}
-.imgCard {
-  width: 100px;
 }
 #hubspotSection {
   padding-top: 40px;
